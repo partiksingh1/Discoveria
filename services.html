@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discoveria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,300;0,500;0,600;1,100;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+
+    </section>
+
+    <!-- ---------------------services------------------------- -->
+
+    <section class="services">
+        <h1>Services we offer</h1>
+        <p>From awe-inspiring natural wonders to vibrant cityscapes and cultural treasures, our curated destinations
+            offer unforgettable experiences that will leave you with memories to last a lifetime</p>
+        <div class="row">
+            <div class="services-col">
+                <h3>VIP TRAVEL PLANNING</h3>
+                <p>Experience luxury and personalized service with our VIP travel planning, where every detail is
+                    meticulously crafted to cater to your unique preferences and desires.</p>
+
+            </div>
+            <div class="services-col">
+                <h3>GROUP TRAVEL</h3>
+                <p>Discover the joy of group travel, where shared experiences and new friendships await as you explore
+                    the world together, creating lifelong memories.</p>
+
+            </div>
+            <div class="services-col">
+                <h3>CORPORATE TRAVEL</h3>
+                <p>Streamline your corporate travel management with our dedicated team, offering personalized
+                    itineraries, flexible booking options, and access to exclusive corporate rates and perks.</p>
+
+            </div>
+        </div>
+
+
+    <!-- --------------------destinations---------------- -->
+
+    <section class="destination">
+
+        <h1>Destinations</h1>
+        <p>Experience the allure of pristine beaches, vibrant cultures, and breathtaking landscapes in our handpicked
+            destinations.</p>
+        <div class="row">
+            <div class="destination-col">
+                <img src="images/4.jpeg" alt="">
+                <div class="layer">
+                    <h3>EUROPE</h3>
+                </div>
+            </div>
+            <div class="destination-col">
+                <img src="images/asia.jpeg" alt="">
+                <div class="layer">
+                    <h3>ASIA</h3>
+                </div>
+            </div>
+            <div class="destination-col">
+                <img src="images/africa.jpeg" alt="">
+                <div class="layer">
+                    <h3>AFRICA</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------footer-------------- -->
+    
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Your gateway to unforgettable journeys around the world.</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!-- -------------script----------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
